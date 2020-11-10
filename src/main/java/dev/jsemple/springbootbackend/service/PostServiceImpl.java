@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 import dev.jsemple.springbootbackend.dto.mapper.PostMapper;
 import dev.jsemple.springbootbackend.dto.model.PostDto;
 import dev.jsemple.springbootbackend.exception.PostNotFoundException;
-import dev.jsemple.springbootbackend.model.Post;
 import dev.jsemple.springbootbackend.repository.PostRepository;
 
 @RequiredArgsConstructor
