@@ -1,2 +1,2 @@
-# springboot-mvc
-Portfolio app using springboot MVC.
+# Springboot Backend
+Portfolio app using a Springboot REST API.
