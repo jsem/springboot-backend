@@ -43,6 +43,10 @@ public class Post {
     private String body;
 
     @NotNull
+    @Column
+    private String summary;
+
+    @NotNull
     private Boolean visible;
 
     @NotNull

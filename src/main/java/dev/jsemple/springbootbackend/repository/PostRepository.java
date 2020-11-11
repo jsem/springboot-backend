@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.Query;
 import dev.jsemple.springbootbackend.model.Post;
 
 public interface PostRepository extends JpaRepository<Post, Long> {
-    @Query("SELECT p FROM Post p WHERE p.visible = TRUE")
+    @Query("SELECT p FROM Post p WHERE p.visible = TRUE ORDER BY p.createdOn DESC")
     List<Post> findAllVisible();
 
     @Query("SELECT p FROM Post p WHERE p.visible = TRUE AND p.identifier = :identifier")

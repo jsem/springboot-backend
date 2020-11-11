@@ -25,6 +25,8 @@ public class PostDto {
 
     private String body;
 
+    private String summary;
+
     private Date createdOn;
 
     private Date updatedOn;

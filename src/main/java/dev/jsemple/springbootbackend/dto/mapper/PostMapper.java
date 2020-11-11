@@ -16,6 +16,7 @@ public class PostMapper {
                 .setIdentifier(post.getIdentifier())
                 .setTitle(post.getTitle())
                 .setBody(post.getBody())
+                .setSummary(post.getSummary())
                 .setCreatedOn(post.getCreatedOn())
                 .setUpdatedOn(post.getUpdatedOn());
     }
